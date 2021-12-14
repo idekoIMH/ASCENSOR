@@ -53,4 +53,24 @@ Para ejecutar el programa de reconocimiento, en el terminal :
 
 https://www.bytefish.de/dev/libfacerec/_images/facerec_video.png
 
+
+
 ************* Google Spreadsheet API , gestion de  *******************************
+
+Creamos una hoja de calculo en excel
+
+Creamos una API para que nuestro programa en python pueda comunicarse con las hojas de calculo de Drive
+
+https://developers.google.com/workspace/guides/create-project
+
+Seccion : **Obtain service account credentials**
+
+Nos descargaremos un archivo .Json que sera una especie de llave para acceder a la hoja de calculo.
+
+Ahora con las librerias cargadas en nuestro programa python 
+
+`import gspread`
+`import pandas as pd  #spreadsheet management`
+`from oauth2client.service_account import ServiceAccountCredentials`
+
+
