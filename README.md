@@ -43,3 +43,10 @@ Ejecutar:
 desde el terminal
 Este analizara todas las fotos de todas las carpetas
 Dejar que termine
+
+
+Para ejecutar el programa de reconocimiento, en el terminal :
+
+` cd facial_recognition` 
+
+` python3 facial_req_email.py` 
