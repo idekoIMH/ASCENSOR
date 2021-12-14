@@ -1,0 +1,79 @@
+Video devices USB:
+
+ls -ltr /dev/video*
+Poner el modo de la camara en PC camera 
+Encontrar en que puerto esta
+Despues cambiar la linea de codigo
+cam = cv2.VideoCapture(0)
+
+
+
+
+Usb Camera:
+cd facial_recognition
+python Camera.py
+
+
+Face Recognition PARA RECONOCIMIENTO DE PERSONAS:
+
+
+
+cd facial_recognition
+
+python2 facial_req_email.py
+python2 facial_req.py   [data = pickle.loads(open(encodingsP, "rb").read(), encoding='latin1')]
+
+python3 facial_req_email.py
+python3 facial_req.py  [data = pickle.loads(open(encodingsP, "rb").read())]
+
+Para crear una persona nueva, editar:
+
+headshots.py
+
+Cambiar el valor de:
+
+name = 'Barru' #replace with your name
+
+Crear una carpeta dentro de dataset con el mismo nombre
+
+Y volver a ejecutar (espacio para sacar una foto nueva)
+
+Las fotos se guardaran en dataset, en distintas carpetas
+
+Ejecutar train_model.py desde el terminal
+Este analizara todas las fotos de todas las carpetas
+Dejar que termine
+
+
+
+
+
+
+Tensor Flow PARA DETECCION DE OBJETOS :
+cd tflite1
+source tflite1-env/bin/activate
+python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model
+
+
+
+Para ver las versiones de Python instaladas y seleccionada:
+sudo update-alternatives --config python
+Para cambiar:
+ls /usr/bin/python
+sudo update-alternatives --list python
+
+ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
+ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+
+sudo update-alternatives --list python
+sudo update-alternatives --config python
+
+Aqui seleccionar el que queramos
+
+
+
+
+Para ejecutar python3 ( el programa desde terminal )
+
+/usr/bin/env python3
+
