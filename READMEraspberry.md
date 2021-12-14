@@ -50,3 +50,7 @@ Para ejecutar el programa de reconocimiento, en el terminal :
 ` cd facial_recognition` 
 
 ` python3 facial_req_email.py` 
+
+https://www.bytefish.de/dev/libfacerec/_images/facerec_video.png
+
+************* Google Spreadsheet API , gestion de  *******************************
