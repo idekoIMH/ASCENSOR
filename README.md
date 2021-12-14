@@ -8,3 +8,7 @@ https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/
 
 Imagen completa Raspberry Pi 4 :
 
+
+
+Para grabarla a una micro SD usar Balena Etcher
+
