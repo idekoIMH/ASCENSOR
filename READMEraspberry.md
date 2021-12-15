@@ -59,10 +59,15 @@ desde el terminal
 
 `>>> %Run train_model.py`
 `[INFO] start processing faces...`
+
 `[INFO] processing image 1/125`
+
 `[INFO] processing image 2/125`
+
 `[INFO] processing image 3/125`
+
 `[INFO] processing image 4/125`
+
 `[INFO] processing image 5/125`
 
 
@@ -83,6 +88,13 @@ https://www.bytefish.de/dev/libfacerec/_images/facerec_video.png
 ************* Google Spreadsheet API , gestion de  *******************************
 
 Creamos una hoja de calculo en Google Drive
+
+Creamos un proyecto en 
+
+https://console.cloud.google.com/
+
+![This is an image](https://photos.app.goo.gl/nFJvfSGMxiC2DJQPA)
+
 
 Habilitamos la API para que nuestro programa en python pueda comunicarse con las hojas de calculo de Drive
 
