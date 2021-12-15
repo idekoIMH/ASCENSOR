@@ -33,5 +33,5 @@ Principalmente, la estructura del programa y configuración de PLC se basa en lo
  
 ## PLCSIM (EJECUCIÓN DE PLC)
 
-
+Indistintamente esta arquitectura se puede implementar en un plc real o simulado. Para simplificar, hemos levantado el PLCSIM 
 
