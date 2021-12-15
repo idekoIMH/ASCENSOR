@@ -13,7 +13,7 @@ Para grabarla a una micro SD usar Balena Etcher
 
 Como ejecutar la deteccion de personas:
 
-Primero conectar camara y ver si la Py la reconoce
+Primero conectar camara y DESDE TERMINAL ver si la Py la reconoce
 
 `ls -ltr /dev/video*`
 
@@ -80,19 +80,32 @@ https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-sp
 
 Seccion : **Obtain service account credentials**
 
-Nos descargaremos un archivo .Json que sera una especie de llave para acceder a la hoja de calculo.
+Nos descargaremos un archivo .Json que sera una especie de llave para acceder a la hoja de calculo y la deamos en la misma carpeta donde tengamos los prog. de reconocimiento.
+En este caso es /home/pi/facial_recognition
 
-Ahora con las librerias cargadas en nuestro programa python (facial_req.py)
+Ahora cargamos librerias en nuestro programa python (facial_req.py)
 
 `import gspread`
 `import pandas as pd  #spreadsheet management`
 `from oauth2client.service_account import ServiceAccountCredentials`
 
+Definimos la APi ( archivo JSON ) y nombre de la hoja de calculo (DB_Elevator)
 
+`# define the scope
+`scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']`
+`# add credentials to the account`
+`creds = ServiceAccountCredentials.from_json_keyfile_name('elevatorimh-d33b18a80991.json', scope)`
+`# authorize the clientsheet`
+`client = gspread.authorize(creds)`
+`# get the instance of the Spreadsheet`
+`sheet = client.open('DB Elevator')`
+`# get the first sheet of the Spreadsheet`
+`DB_Elevator = sheet.get_worksheet(0)`
 
+Nota: sheet.get_worksheet(0) -> quiere decir que accedemos a la PRIMERO HOJA !! Si tuviese mas , cambiar
 
-Podemos editar la hoja de calculo en la nube
+Ahora podemos Leer/escribir en la hoja de calculo en la nube con las funciones de la libreria:
 
-
-
+        `Num_Rows_str = DB_Elevator.acell('L5').value #read cell L5`
+        `DB_Elevator.update('N5', '0' ) # write 0 in cell N5`
 
