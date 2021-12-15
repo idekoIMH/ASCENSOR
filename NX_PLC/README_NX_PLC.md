@@ -10,4 +10,12 @@ interactuar con la lógica de control.
 
 El archivo de partida es el 3D del ascensor.Posteriormente se migra y filtran las piezas y/o elementos a las extensión PRT
 Posteriormente generamos los siguientes elementos de modelo:
-* 
+* Generamos los cuerpos rígidos de la simulación
+* Generamos los ejes y/o actuadores. En este caso es un eje lineal
+* Generamos los "sensores" , en este casos sensores se refiere a implementar un control de posición en el eje lineal
+* Generamos una señal que posteriormente asociamos a una señal externa de OPCUA.
+
+## PROGRAMA PLC
+
+El programa de PLC esta implemntado en un controlador siemens empleando el entorno de TiaPortal 16
+Principalmente 
