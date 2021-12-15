@@ -93,7 +93,7 @@ Creamos un proyecto en
 
 https://console.cloud.google.com/
 
-![This is an image](https://photos.app.goo.gl/nFJvfSGMxiC2DJQPA)
+![This is an image](https://photos.google.com/share/AF1QipMLTfDg9h8OrY6wBQyIh6usonSssAiqfAckScVzydFVXnCsxBxvWC8ukvp4nX3dqA/photo/AF1QipOqIU1vFB5e2uqzPJuEud6yXW3xxO6eqJyK2MZQ?key=V1lGYmJrNndrdWljTHpKWk9mX2k5b2gxS1VXbFhR)
 
 
 Habilitamos la API para que nuestro programa en python pueda comunicarse con las hojas de calculo de Drive
