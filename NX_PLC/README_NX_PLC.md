@@ -27,6 +27,9 @@ Principalmente, la estructura del programa y configuración de PLC se basa en lo
 * Levantar un servidor OPC-UA para comunicarse de forma bidireccional con NX MCD y Node Red
 * Generar un DB Global con las posiciones de ascensor
 * Implementar en un bloque funcional la lógica prveniente de Node red
+
+![image](https://user-images.githubusercontent.com/96112529/146224464-3df1784b-cabb-4355-8479-15b8743608fa.png)
+
  
 ## PLCSIM (EJECUCIÓN DE PLC)
 
