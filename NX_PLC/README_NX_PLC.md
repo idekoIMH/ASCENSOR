@@ -2,4 +2,5 @@ En este documento se explica brevemente la parte integración del modelo de geme
 y PLCSIM advance 3.0.
 
 NX MCD
-El archivo de partida es el 3D del ascensor que
+El archivo de partida es el 3D del ascensor.Posteriormente se migra y filtran las piezas y/o elementos a las extensión PRT
+Generamos 
