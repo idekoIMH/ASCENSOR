@@ -19,14 +19,19 @@ Primero conectar camara y DESDE TERMINAL ver si la Py la reconoce
 
 Mostrara las camaras:
 
+`crw-rw----+ 1 root video 81, 2 dic 15 13:09 /dev/video15`
+`crw-rw----+ 1 root video 81, 1 dic 15 13:09 /dev/video14`
+`crw-rw----+ 1 root video 81, 3 dic 15 13:09 /dev/video16`
+`crw-rw----+ 1 root video 81, 0 dic 15 13:09 /dev/video13`
+
 hay que probar hasta encontrar cual es .
 
 Para eso cambiar en todas las lineas de codigo de python :
 
 Camara0
 `cam = cv2.VideoCapture(0)`
-Camara1
-`cam = cv2.VideoCapture(1)`
+Camara15
+`cam = cv2.VideoCapture(15)`
 etc
 
 Para crear una persona nueva,primero editar:
@@ -68,7 +73,7 @@ https://www.bytefish.de/dev/libfacerec/_images/facerec_video.png
 
 ************* Google Spreadsheet API , gestion de  *******************************
 
-Creamos una hoja de calculo en excel
+Creamos una hoja de calculo en Google Drive
 
 Creamos una API para que nuestro programa en python pueda comunicarse con las hojas de calculo de Drive
 
@@ -78,15 +83,16 @@ Creamos una API para que nuestro programa en python pueda comunicarse con las ho
 
 https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html
 
-Seccion : **Obtain service account credentials**
 
-Nos descargaremos un archivo .Json que sera una especie de llave para acceder a la hoja de calculo y la deamos en la misma carpeta donde tengamos los prog. de reconocimiento.
+Nos descargaremos un archivo .JSON que sera una especie de llave para acceder a la hoja de calculo y la deamos en la misma carpeta donde tengamos los prog. de reconocimiento.
 En este caso es /home/pi/facial_recognition
 
 Ahora cargamos librerias en nuestro programa python (facial_req.py)
 
 `import gspread`
+
 `import pandas as pd  #spreadsheet management`
+
 `from oauth2client.service_account import ServiceAccountCredentials`
 
 Definimos la APi ( archivo JSON ) y nombre de la hoja de calculo (DB_Elevator)
