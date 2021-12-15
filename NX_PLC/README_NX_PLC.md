@@ -15,6 +15,10 @@ Posteriormente generamos los siguientes elementos de modelo:
 * Generamos los "sensores" , en este casos sensores se refiere a implementar un control de posición en el eje lineal
 * Generamos una señal que posteriormente asociamos a una señal externa de OPCUA.
 
+
+![image](https://user-images.githubusercontent.com/96112529/146219522-6a8f3eb0-67e5-41e1-a028-d45cfeec1626.png)
+
+
 ## PROGRAMA PLC
 
 El programa de PLC esta implemntado en un controlador siemens empleando el entorno de TiaPortal 16
