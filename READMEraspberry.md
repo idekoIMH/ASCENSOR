@@ -55,12 +55,18 @@ Las fotos se guardaran en dataset, en distintas carpetas, distintas personas
 
 Ejecutar:
 `train_model.py` 
-
 desde el terminal
+
+>>> %Run train_model.py
+[INFO] start processing faces...
+[INFO] processing image 1/125
+[INFO] processing image 2/125
+[INFO] processing image 3/125
+[INFO] processing image 4/125
+[INFO] processing image 5/125
+
+
 Este analizara todas las fotos de todas las carpetas
-
-
-
 Dejar que termine
 
 
@@ -78,7 +84,7 @@ https://www.bytefish.de/dev/libfacerec/_images/facerec_video.png
 
 Creamos una hoja de calculo en Google Drive
 
-Creamos una API para que nuestro programa en python pueda comunicarse con las hojas de calculo de Drive
+Habilitamos la API para que nuestro programa en python pueda comunicarse con las hojas de calculo de Drive
 
 
 ![This is an image](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/original_images/google-developer-console.gif)
@@ -98,7 +104,7 @@ Ahora cargamos librerias en nuestro programa python (facial_req.py)
 
 `from oauth2client.service_account import ServiceAccountCredentials`
 
-Definimos la APi ( archivo JSON ) y nombre de la hoja de calculo (DB_Elevator)
+Definimos las ceredenciales ( archivo JSON ) y nombre de la hoja de calculo (DB_Elevator)
 
 `# define the scope`
 
