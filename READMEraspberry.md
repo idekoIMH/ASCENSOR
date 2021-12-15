@@ -57,13 +57,13 @@ Ejecutar:
 `train_model.py` 
 desde el terminal
 
->>> %Run train_model.py
-[INFO] start processing faces...
-[INFO] processing image 1/125
-[INFO] processing image 2/125
-[INFO] processing image 3/125
-[INFO] processing image 4/125
-[INFO] processing image 5/125
+`>>> %Run train_model.py`
+`[INFO] start processing faces...`
+`[INFO] processing image 1/125`
+`[INFO] processing image 2/125`
+`[INFO] processing image 3/125`
+`[INFO] processing image 4/125`
+`[INFO] processing image 5/125`
 
 
 Este analizara todas las fotos de todas las carpetas
