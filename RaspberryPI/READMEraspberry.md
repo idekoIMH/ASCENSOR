@@ -148,5 +148,6 @@ Nota: sheet.get_worksheet(0) -> quiere decir que accedemos a la PRIMERO HOJA !! 
 Ahora podemos Leer/escribir en la hoja de calculo en la nube con las funciones de la libreria:
 
 `Num_Rows_str = DB_Elevator.acell('L5').value #read cell L5`
+
 `DB_Elevator.update('N5', '0' ) # write 0 in cell N5`
 
