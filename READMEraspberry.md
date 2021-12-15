@@ -20,8 +20,11 @@ Primero conectar camara y DESDE TERMINAL ver si la Py la reconoce
 Mostrara las camaras:
 
 `crw-rw----+ 1 root video 81, 2 dic 15 13:09 /dev/video15`
+
 `crw-rw----+ 1 root video 81, 1 dic 15 13:09 /dev/video14`
+
 `crw-rw----+ 1 root video 81, 3 dic 15 13:09 /dev/video16`
+
 `crw-rw----+ 1 root video 81, 0 dic 15 13:09 /dev/video13`
 
 hay que probar hasta encontrar cual es .
@@ -97,15 +100,24 @@ Ahora cargamos librerias en nuestro programa python (facial_req.py)
 
 Definimos la APi ( archivo JSON ) y nombre de la hoja de calculo (DB_Elevator)
 
-`# define the scope
+`# define the scope`
+
 `scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']`
+
 `# add credentials to the account`
+
 `creds = ServiceAccountCredentials.from_json_keyfile_name('elevatorimh-d33b18a80991.json', scope)`
+
 `# authorize the clientsheet`
+
 `client = gspread.authorize(creds)`
+
 `# get the instance of the Spreadsheet`
+
 `sheet = client.open('DB Elevator')`
+
 `# get the first sheet of the Spreadsheet`
+
 `DB_Elevator = sheet.get_worksheet(0)`
 
 Nota: sheet.get_worksheet(0) -> quiere decir que accedemos a la PRIMERO HOJA !! Si tuviese mas , cambiar
