@@ -1,15 +1,20 @@
 # ASCENSOR
-Modelo NX / Servidor OPC_UA / Data Cloud / Node Red management/ Vision
+Modelo NX / Servidor OPC_UA / Data Cloud / Node Red management/ VISION ARTIFICIAL
+
+
 
 *************   Vision artificial , librerias OPEN_CV *******************************
 
-Paso a paso:
+Instalaciion paso a paso:
 
 https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/
 
-Imagen completa Raspberry Pi 4 : idekoimh@gmail.com
+Instalacion imagen completa Raspberry Pi 4 : idekoimh@gmail.com
 
-Para grabarla a una micro SD usar Balena Etcher
+Para grabarla a una micro SD usar Balena Etcher 
+
+https://www.balena.io/etcher/
+
 
 Como ejecutar la deteccion de personas:
 
@@ -85,7 +90,7 @@ https://www.bytefish.de/dev/libfacerec/_images/facerec_video.png
 
 
 
-************* Google Spreadsheet API , gestion de  *******************************
+************* Google Spreadsheet API , gestion de DB en cloud *******************************
 
 Creamos una hoja de calculo en Google Drive
 
@@ -105,7 +110,7 @@ Habilitamos la API para que nuestro programa en python pueda comunicarse con las
 https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html
 
 
-Nos descargaremos un archivo .JSON que sera una especie de llave para acceder a la hoja de calculo y la deamos en la misma carpeta donde tengamos los prog. de reconocimiento.
+Nos descargaremos un archivo .JSON que sera una especie de llave para acceder a la hoja de calculo y la dejamos en la misma carpeta donde tengamos los prog. de reconocimiento.
 En este caso es /home/pi/facial_recognition
 
 Ahora cargamos librerias en nuestro programa python (facial_req.py)
