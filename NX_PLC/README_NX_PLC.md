@@ -21,5 +21,14 @@ Posteriormente generamos los siguientes elementos de modelo:
 
 ## PROGRAMA PLC
 
-El programa de PLC esta implemntado en un controlador siemens empleando el entorno de TiaPortal 16
-Principalmente 
+El programa de PLC esta implemntado en un controlador Siemens empleando el entorno de TiaPortal 16
+Principalmente, la estructura del programa y configuración de PLC se basa en lo siguiente:
+
+* Levantar un servidor OPC-UA para comunicarse de forma bidireccional con NX MCD y Node Red
+* Generar un DB Global con las posiciones de ascensor
+* Implementar en un bloque funcional la lógica prveniente de Node red
+ 
+## PLCSIM (EJECUCIÓN DE PLC)
+
+
+
