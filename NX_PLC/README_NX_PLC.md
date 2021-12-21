@@ -45,8 +45,8 @@ El procedimiento para levantar la simulación es el siguiente:
 
 ## TESTEO
 
-Dado que el proyecto integra tres módulos diferenciados es necesario realizar una validación del subproyecto. En este caso se levataró el PLCSIM, el TiaPortal y el NX MCD
-y se ajustarón las posiciones de cada una de las cotas del ascensor y se comprobó que las semales de comando que llevan al NX se ejecutaban correctamente y que la lógica se correspndía con la secuencia que se comandaba de node-red.
+Dado que el proyecto integra tres módulos diferenciados es necesario realizar una validación del subproyecto. En este caso se levataron el PLCSIM, el TiaPortal y el NX MCD
+y se ajustarón las posiciones de cada una de las cotas del ascensor y se comprobó que las señales de comando que llevan al NX se ejecutaban correctamente y que la lógica se correspndía con la secuencia que se comandaba desde node-red.
 
 
 
