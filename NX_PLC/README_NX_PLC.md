@@ -21,7 +21,7 @@ Posteriormente generamos los siguientes elementos de modelo:
 
 ## PROGRAMA PLC
 
-El programa de PLC esta implemntado en un controlador Siemens empleando el entorno de TiaPortal 16
+El programa de PLC esta implemntado en un controlador Siemens empleando el entorno de TiaPortal 16.
 Principalmente, la estructura del programa y configuración de PLC se basa en lo siguiente:
 
 * Levantar un servidor OPC-UA para comunicarse de forma bidireccional con NX MCD y Node Red
@@ -33,5 +33,23 @@ Principalmente, la estructura del programa y configuración de PLC se basa en lo
  
 ## PLCSIM (EJECUCIÓN DE PLC)
 
-Indistintamente esta arquitectura se puede implementar en un plc real o simulado. Para simplificar, hemos levantado el PLCSIM 
+Indistintamente esta arquitectura se puede implementar en un plc real o simulado. En este caso se ha utlizado PLCSIM advance, pero a efectos prácticos,
+tanto el protocolo de comunicación como el levantamiento de la cosimulación se realiza desde la misma manera.
+El procedimiento para levantar la simulación es el siguiente:
+* Se ejecuta una instancia del PLCSiM
+
+![PLCSIM](https://user-images.githubusercontent.com/96112529/146889474-4050a86f-5f8b-4536-a1f6-41e50d4dbbba.png)
+
+* Añadimos una subred dentro del rango de la IP del PLC
+* Dejamos las instancia en modo RUN
+
+## TESTEO
+
+Dado que el proyecto integra tres módulos diferenciados es necesario realizar una validación del subproyecto. En este caso se levataró el PLCSIM, el TiaPortal y el NX MCD
+y se ajustarón las posiciones de cada una de las cotas del ascensor y se comprobó que las semales de comando que llevan al NX se ejecutaban correctamente y que la lógica se correspndía con la secuencia que se comandaba de node-red.
+
+
+
+
+
 
