@@ -23,8 +23,8 @@ Cabe destacar que hay varias vías para tener Node-red instalado:
 | `npm run electron:mac`     | On a MAC OS, builds your application and generates a `.app` file of your application that can be run on Mac |
 
 
-* Views (https://www.drupal.org/project/views)
-* Panels (https://www.drupal.org/project/panels)
+    * Views (https://www.drupal.org/project/views)
+    * Panels (https://www.drupal.org/project/panels)
 
 
 ## RECOMMENDED
