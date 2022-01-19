@@ -32,7 +32,7 @@ De esta forma se accede a la aplicación y aparecerá el entorno de programació
 
   - 3- Puede que haya algún problema a la hora de importar el JSON y es que seguramente se no aparezcan las librerías descargadas de esos nodos. Para eso, lo que se tendrá que hacer es descargarlos en el apartado "Manage Palette". 
 
-![image](https://user-images.githubusercontent.com/96112529/150157764-cae9c31d-04f7-4583-a34f-c924a9a60f27.png)
+![image](https://user-images.githubusercontent.com/96112529/150157904-4cedada8-d36e-46a8-a295-fbda18b96e8d.png)
 
 Una vez descargado correctamente la librerías que falten, ya se puede configurar los nodos a nuestro antojo.
 
