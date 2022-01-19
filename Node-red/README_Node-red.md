@@ -32,7 +32,7 @@ De esta forma se accede a la aplicación y aparecerá el entorno de programació
 
   - 3- Puede que haya algún problema a la hora de importar el JSON y es que seguramente se no aparezcan las librerías descargadas de esos nodos. Para eso, lo que se tendrá que hacer es descargarlos en el apartado "Manage Palette". 
 
-![image](https://user-images.githubusercontent.com/96112529/150155973-e0451135-e6d1-4943-b2c2-bda2f7a2cb28.png)
+![image](https://user-images.githubusercontent.com/96112529/150157764-cae9c31d-04f7-4583-a34f-c924a9a60f27.png)
 
 Una vez descargado correctamente la librerías que falten, ya se puede configurar los nodos a nuestro antojo.
 
@@ -41,8 +41,6 @@ Una vez descargado correctamente la librerías que falten, ya se puede configura
 
 
 ## MAINTAINERS
-
-Current maintainers:
 
 * Aitor Barrutia: - a.barrutia@ideko.es
 * Jose Luis Bellanco - jlbellanco@ideko.es
