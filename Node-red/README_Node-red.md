@@ -1,6 +1,6 @@
 
 
-## Introducción
+## INTRODUCCIÓN
 
 En este README se va a explicar todo lo que se ha realizado en Node-red, explicando paso a paso todas las configuraciones y por otro lado, también se va a explicar la utilización de la herramienta tecnológica DOCKER.
 
@@ -28,7 +28,7 @@ De esta forma se accede a la aplicación y aparecerá el entorno de programació
   - 1- Descargar el JSON del proyecto llamado `Elevator_Ermua_Flow.json` dentro del directorio `/Node-red´.
   - 2- Importar el fichero JSON dentro de Node-red.
   
-  ![image](https://user-images.githubusercontent.com/96112529/150155392-bbf1070c-9d85-4022-9c28-e920b805ddac.png)
+![image](https://user-images.githubusercontent.com/96112529/150158165-e16a9dfb-7e86-448a-a97f-e774e7abc02e.png)
 
   - 3- Puede que haya algún problema a la hora de importar el JSON y es que seguramente se no aparezcan las librerías descargadas de esos nodos. Para eso, lo que se tendrá que hacer es descargarlos en el apartado "Manage Palette". 
 
