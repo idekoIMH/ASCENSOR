@@ -11,7 +11,16 @@ Cabe destacar que hay varias vías para tener Node-red instalado:
   - 1- Instalando Node js mediante la URL ---> (https://nodejs.org/es/).
   - 2- Ejecutando el comando 'npm install -g --unsafe-perm node-red' para instalar Node-red.
   - 3- Correr la aplicación - **in a terminal window** -> npm node-red.
-  - 
+
+* **Mediante Docker**: Accediendo a la página oficial de Docker (https://www.docker.com/products/docker-desktop).
+  - 1- Una vez que tenemos instalado Docker en nuestro pc, se habre el terminal y se introduce el comando `docker pull nodered/node-red-docker` para descargarnos la última imagen de node-red
+  
+     ![image](https://user-images.githubusercontent.com/96112529/150083438-bec436d1-8b58-428a-bcce-23a4c1535977.png)
+     
+  - 2- Después de descargarnos la imagen, montamos un contenedor, es decir, una aplicación con la imagen de Node-red. Para eso ejecutamos el comando `docker run -it -p 1880:1880 -v node_red_data:/data --name Node-Red nodered/node-red`
+
+
+
 | Command                    | Description                                                                                                 |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | `npm run ng:serve:web`     | Execute the app in the browser                                                                              |
